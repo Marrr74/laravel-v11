@@ -33,7 +33,27 @@ Este documento serve como um glossário técnico detalhado, explicando a funçã
 
 ---
 
-## 2. Configuração do Motor PHP (`php.ini`)
+## 2. Frontend e Compilação de Assets
+
+O Laravel moderno utiliza uma stack de frontend extremamente rápida e otimizada.
+
+### ⚡ Vite
+* **O que é:** Uma ferramenta de build (construção) de frontend de próxima geração. Substitui o antigo Webpack (Laravel Mix).
+* **Para que serve:** Ele pega seus arquivos CSS e JS, minifica, otimiza e serve para o navegador instantaneamente.
+* **Por que usamos:** A velocidade de inicialização do servidor de desenvolvimento é quase instantânea, melhorando drasticamente a experiência de desenvolvimento (DX).
+
+### 🍃 Tailwind CSS
+* **O que é:** Um framework CSS "Utility-First" (baseado em utilitários).
+* **Para que serve:** Permite construir interfaces complexas e responsivas diretamente no HTML, sem sair do arquivo Blade/View.
+* **Por que usamos:** É o padrão de mercado atual. Ele elimina a necessidade de arquivos `.css` gigantescos e difíceis de manter, além de garantir que o site final seja extremamente leve (pois remove o CSS não utilizado na hora do build).
+
+### 🎨 PostCSS
+* **O que é:** Uma ferramenta para transformar CSS com JavaScript.
+* **Para que serve:** É o "motor" que permite que o Tailwind funcione. Ele processa as regras de CSS modernas para garantir que funcionem em todos os navegadores.
+
+---
+
+## 3. Configuração do Motor PHP (`php.ini`)
 
 Para que o Laravel funcione sem erros fatais, o interpretador PHP depende de configurações específicas no arquivo de inicialização `php.ini`.
 
@@ -53,7 +73,7 @@ Neste boilerplate, a aplicação quebrará imediatamente se as seguintes extens�
 
 ---
 
-## 3. Qualidade de Código (QA)
+## 4. Qualidade de Código (QA)
 
 ### 🔍 Análise Estática
 É o processo de analisar o código-fonte sem executá-lo, buscando padrões que indicam erros lógicos ou de sintaxe.
@@ -75,7 +95,7 @@ Neste boilerplate, a aplicação quebrará imediatamente se as seguintes extens�
 
 ---
 
-## 4. Testes Automatizados
+## 5. Testes Automatizados
 
 ### 🧪 PHPUnit / Pest
 * **O que são:** Frameworks de teste para PHP.
@@ -85,7 +105,7 @@ Neste boilerplate, a aplicação quebrará imediatamente se as seguintes extens�
 
 ---
 
-## 5. Ferramentas de Desenvolvimento (DX)
+## 6. Ferramentas de Desenvolvimento (DX)
 
 ### 📦 Composer
 * **O que é:** O gerenciador de dependências oficial do PHP.
@@ -104,7 +124,7 @@ Neste boilerplate, a aplicação quebrará imediatamente se as seguintes extens�
 
 ---
 
-## 6. Automação e Integração Contínua
+## 7. Automação e Integração Contínua
 
 ### 🤖 CI/CD (GitHub Actions)
 * **O que é:** Um serviço de automação de fluxo de trabalho integrado ao GitHub.

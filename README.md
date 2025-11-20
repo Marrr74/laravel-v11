@@ -6,6 +6,7 @@
 ![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![PostgreSQL 16](https://img.shields.io/badge/PostgreSQL-16-336791?style=for-the-badge&&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 [![Build Status](https://github.com/angelluzk/laravel-v11/actions/workflows/laravel.yml/badge.svg)](https://github.com/angelluzk/laravel-v11/actions)
 ![Code Style](https://img.shields.io/badge/Code%20Style-Laravel%20Pint-blue)
@@ -25,7 +26,8 @@ Tudo já configurado para um ambiente profissional e escalável, ideal tanto par
 ## 🛠️ Tecnologias e Recursos
 
 - **Framework:** Laravel 11  
-- **Linguagem:** PHP 8.2+  
+- **Linguagem:** PHP 8.2+
+- **Frontend:** Tailwind CSS + Vite  
 - **Banco de Dados:** PostgreSQL 16 (Docker)  
 - **Ambiente de Desenvolvimento:** Laravel Sail (Docker Compose V2)  
 - **Code Style:** Laravel Pint (PSR-12)  
@@ -97,12 +99,18 @@ DB_CONNECTION=pgsql
 DB_PORT=5432
 ```
 
-### 4. Setup Final
+### 4. Setup Final & Frontend
+
+Gere a chave, migre o banco e compile os assets do Tailwind:
 
 ```bash
+# Backend Setup
 ./vendor/bin/sail artisan key:generate
 ./vendor/bin/sail artisan migrate
-```
+
+# Frontend Setup (Instala e compila o CSS/JS)
+./vendor/bin/sail npm install
+./vendor/bin/sail npm run build
 
 Aplicação disponível em:
 **[http://localhost](http://localhost)**

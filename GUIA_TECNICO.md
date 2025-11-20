@@ -44,6 +44,12 @@ composer require --dev larastan/larastan barryvdh/laravel-ide-helper
 * **Laravel IDE Helper:**
   Gera arquivos auxiliares para IDEs como VS Code compreenderem corretamente Facades, relacionamentos Eloquent, macros e métodos “mágicos”.
 
+### ✔️ Stack de Frontend (Vite + Tailwind)
+
+A partir do Laravel 11, a estrutura padrão favorece o uso do **Vite** para compilação de assets.
+* **Decisão:** Mantivemos o `package.json` e `tailwind.config.js` originais do esqueleto.
+* **Motivo:** Mesmo para projetos focados em API, ter o Tailwind configurado facilita a criação de painéis administrativos rápidos ou e-mails transacionais estilizados.
+
 ---
 
 ## 3. Arquivos de Padronização e Qualidade (QA)
